@@ -4,7 +4,7 @@ Create all the redux state management for a blog.
 
 ## Blog Action
 
-* create `src/actions/postActions.js`
+[x] create `src/actions/postActions.js`
   * posts have an title and body
   * you can create a post
   * you can delete a post
@@ -12,7 +12,7 @@ Create all the redux state management for a blog.
 
 ## Blog Reducers
 
-* create `src/reducers/postReducer.js`
+[x] create `src/reducers/postReducer.js`
   * store an array of posts
   * handle create a post
   * handle delete a post
@@ -32,7 +32,7 @@ Create all the redux state management for a blog.
 
 ## Blog selectors
 
-* create `src/selectors/postSelectors.js`
+[x] create `src/selectors/postSelectors.js`
   * get all posts
   * get a post by index
 * STRETCH: create `src/selectors/commentSelectors.js`

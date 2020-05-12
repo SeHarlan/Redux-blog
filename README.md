@@ -20,10 +20,10 @@ Create all the redux state management for a blog.
 
 ## STRETCH Blog Combine Reducers
 
-* create `src/actions/commentActions.js`
+[] create `src/actions/commentActions.js`
   * create an action to create a comment for a post (by post index)
   * create an action to delete a comment for a post (by post index and comment index)
-* create `src/reducers/commentReducer.js`
+[] create `src/reducers/commentReducer.js`
   * store comments for each post (create an object where the key is a posts index)
     and the value is an array of comments
   * handle create a comment
@@ -35,7 +35,7 @@ Create all the redux state management for a blog.
 [x] create `src/selectors/postSelectors.js`
   * get all posts
   * get a post by index
-* STRETCH: create `src/selectors/commentSelectors.js`
+[] STRETCH: create `src/selectors/commentSelectors.js`
   * get all comments by post
 
 ## Rubric

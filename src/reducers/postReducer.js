@@ -1,14 +1,14 @@
 import { CREATE_POST, DELETE_POST, UDPATE_POST } from '../actions/postActions';
 
-export default function reducer(state = [], action) {
-  switch(action.type) {
+export default function reducer(state = [], { type, payload }) {
+  switch(type) {
     case CREATE_POST:
-      return [...state, action.payload];
+      return [...state, payload];
     case DELETE_POST:
-      return state.filter((_, i) => i !== action.payload);
+      return state.filter((_, i) => i !== payload);
     case UDPATE_POST:
       return state.map((post, i) => {
-        if(i === action.payload.index) return { ...post, body: action.payload.body };
+        if(i === payload.index) return { ...post, body: payload.body };
         return post;
       });
     default:

@@ -15,3 +15,9 @@ export const deleteComment = ({ postIndex, commentIndex }) => ({
     commentIndex
   }
 });
+
+export const DELETE_POST_COMMENTS = 'DELETE_POST_COMMENTS';
+export const deletePostComments = (postIndex) => ({
+  type: DELETE_POST_COMMENTS,
+  payload: postIndex
+});

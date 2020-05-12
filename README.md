@@ -20,7 +20,7 @@ Create all the redux state management for a blog.
 
 ## STRETCH Blog Combine Reducers
 
-[] create `src/actions/commentActions.js`
+[x] create `src/actions/commentActions.js`
   * create an action to create a comment for a post (by post index)
   * create an action to delete a comment for a post (by post index and comment index)
 [] create `src/reducers/commentReducer.js`
